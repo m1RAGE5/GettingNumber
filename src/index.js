@@ -1,3 +1,8 @@
+/**
+ * @param {numbet} target
+ * @param {number} current
+ * @returns getting a number
+ */
 function getNumber(target, current = 1) {
     if (current === target) return "1";
     if (current > target) return null;
